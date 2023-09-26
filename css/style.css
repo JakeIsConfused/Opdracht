@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+.container {
+    display: flexbox;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 5%;
+    border: #6d5e5e;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 5px solid #695c5c;
+    background-color: #282b30;
+    display:box ;
+    box-sizing: border-box;
+}
+
+nav {
+ background-color:	#82858b;
+  border-bottom: outset #f9fcff;
+  font-size: large;
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px;
+  gap: 10px;
+  font-family: 'Romanesco', cursive;
+
+}
+button{
+    background-color: #7289da;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding: 19px 60px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logo{
+    position:fixed;
+    top:10%;
+    left:20%;
+}
+a {
+    color: #ffffff;
+    border-style:hidden;
+    border-color: #7289da;
+}
+div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-style: outset;
+    padding: 10%;
+}
+
+image {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  border-style: outset;
+  border-radius: 10px;
+flex-shrink: 1px;
+flex-grow: 1px;   
+}
+.symbol{
+    margin: 11px 10px;
+  border-style: outset;
+  border-radius: 10px;
+}
+
+a:hover {
+    color: rgb(243, 243, 243);
+}
+
+header {
+    margin-bottom: 10px;
+    background-color: rgb(105, 117, 116);
+    border-width: 20px;
+    border: #000;
+    font-family: 'Romanesco', cursive;
+    font-size: 30px;
+    padding: 0%;
+}
+.flex_Top{
+    padding: 10px; 
+    margin: auto;
+    border: slategrey;
+    border-width: 1%;
+}
+
+.factions {
+    font-size: large;
+    display: inline-flexbox;
+    font-weight: bold;
+    padding: 0%;
+}
+
+div {
+    border: #4a4a4a;
+    flex-basis: flexbox;
+    padding: 10%;
+    border-width: 10px;
+    border-top: #4a4a4a;
+    border-bottom: white;
+}
+
+title {
+    font-size: large;
+}
+
+
+main {
+    display: flexbox;
+    text-align: auto;
+    font-size: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 1px beige;
+}
+
+.lore {
+    background-color:	#36393e;
+    border-bottom: outset #1e2124;
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+    padding: 28px;
+    
+}
+
+p {
+    font-size: 20px;
+    padding: 25px;
+    border: #4a4a4a;
+    text-align: justify;
+    border-bottom: white;
+    
+}
+
+section {
+    justify-content: center;
+    border-width: 10px;
+    font-size: 10px;
+    display: flexbox;
+    padding: 0%;
+}
+footer {
+    height: 200px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
